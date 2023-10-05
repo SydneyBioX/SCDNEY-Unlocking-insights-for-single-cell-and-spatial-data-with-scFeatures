@@ -12,6 +12,8 @@ vignette: >
 First, this package doesn't do much except add a template Github Action to
 build all the pieces necessary for a workshop.
 
+This is going to be a great workshop!
+
 ## Quickstart
 
 - [ ] Create a repo from this template and rename it (do not fork the repository).
