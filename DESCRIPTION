@@ -1,4 +1,4 @@
-Package: SCDNEYWorkshop 
+Package: SCDNEYWorkshop
 Title: Unlocking insights for single cell and spatial data with scFeatures
 Version: 2.0.0
 Authors@R: c(
@@ -23,10 +23,7 @@ Authors@R: c(
            role = c("aut"),
            email = "jean.yang@sydney.edu.au")
     )
-Description: This package serves as a template for using github actions to 
-    prepare a Bioconductor Workshop package for use. In particular,
-    a pkgdown website and docker image are generated based on workflow 
-    settings. 
+Description: As single-cell technology advances, the number of multi-condition multi-sample datasets increases. The workshop will discuss the challenges and analytical focus associated with disease outcome prediction and prognosis using multi-condition multi-sample spatial patient data. We will also talk about general analytic strategies and the critical thinking questions that arise in the process. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -41,7 +38,7 @@ Suggests:
 URL: https://seandavi.github.io/BuildABiocWorkshop/
 BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: ghcr.io/seandavi/buildabiocworkshop:latest
+DockerImage: ghcr.io/SydneyBioX/SCDNEY-Unlocking-insights-for-single-cell-and-spatial-data-with-scFeatures:latest
 Imports: 
     SingleCellExperiment,
     ggplot2,
