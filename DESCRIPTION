@@ -1,12 +1,28 @@
-Package: BuildABiocWorkshop
-Title: Bioconductor or R Workshop Template and Github Actions
+Package: SCDNEY Workshop 
+Title: Unlocking insights for single cell and spatial data with scFeatures
 Version: 2.0.0
-Authors@R: 
-    person(given = "Sean",
-           family = "Davis",
+Authors@R: c(
+    person(given = "Yue",
+           family = "Cao",
            role = c("aut", "cre"),
-           email = "seandavi@gmail.com",
-           comment = c(ORCID = "0000-0002-8991-6458"))
+           email = "yue.cao@sydney.edu.au"),
+    person(given = "Andy",
+           family = "Tran",
+           role = c("aut"),
+           email = "andy.t@sydney.edu.au"),
+    person(given = "Helen",
+           family = "Fu",
+           role = c("aut"),
+           email = "xifu0689@uni.sydney.edu.au"),
+    person(given = "Nicholas Robertson",
+           family = "Cao",
+           role = c("aut"),
+           email = "nicholas.robertson@sydney.edu.au"),
+    person(given = "Jean",
+           family = "Yang",
+           role = c("aut"),
+           email = "jean.yang@sydney.edu.au")
+    )
 Description: This package serves as a template for using github actions to 
     prepare a Bioconductor Workshop package for use. In particular,
     a pkgdown website and docker image are generated based on workflow 
@@ -27,5 +43,23 @@ BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
 VignetteBuilder: knitr
 DockerImage: ghcr.io/seandavi/buildabiocworkshop:latest
 Imports: 
+    SingleCellExperiment,
+    ggplot2,
     scFeatures,
-    SingleCellExperiment
+    ClassifyR,
+    lisaClust,
+    ggthemes,
+    spicyR,
+    dplyr,
+    limma,
+    plotly,
+    scattermore,
+    tidyr,
+    survival,
+    survminer,
+    spatstat.explore,
+    spatstat.geom,
+    scater,
+    scran,
+    SPOTlight,
+    reshape
