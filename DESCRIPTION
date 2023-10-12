@@ -1,4 +1,4 @@
-Package: SCDNEY Workshop 
+Package: SCDNEYWorkshop 
 Title: Unlocking insights for single cell and spatial data with scFeatures
 Version: 2.0.0
 Authors@R: c(
